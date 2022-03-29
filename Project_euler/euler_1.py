@@ -1,0 +1,7 @@
+# 1 den 1000 e kadar olan sayılardan 5 veya 3 ün katı olan sayıların toplamı
+# Find the sum of all the multiples of 3 or 5 below 1000.
+t=0
+for i in range(1,1000):
+    if i%3==0 or i%5==0:
+        t+=i
+print(t)
